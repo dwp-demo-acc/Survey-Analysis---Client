@@ -1,0 +1,257 @@
+{
+    "executive_page_summary": "The survey data analysis reveals a generally high level of customer satisfaction across all areas of service. The average satisfaction scores for all questions were above 6.5 on a scale of 1 to 7, indicating a positive sentiment among respondents. The majority of respondents gave the highest possible satisfaction score for all questions, further emphasizing the high level of customer satisfaction.<br>\n\n<b>Anomalies and Findings:</b><br>\n\n1. <b>Project Type Satisfaction:</b> The 'Proposal/Bid' project type consistently received lower satisfaction scores compared to other project types. This suggests that there may be some issues with this project type that need to be addressed to improve customer satisfaction.<br>\n\n2. <b>Quality Inconsistency:</b> The 'Presentation' project type received the highest number of responses and had a wide range of satisfaction scores. This indicates that while many customers were highly satisfied with this project type, there were also some who were less satisfied. This suggests that there may be some inconsistency in the quality of service for this project type.<br>\n\n3. <b>Member Firm Satisfaction:</b> The data also revealed some variations in customer satisfaction across different member firms. For example, China had the highest mean satisfaction score, while NSE Switzerland had the lowest. This suggests that there may be differences in the level of service provided by different member firms.<br>\n\n<b>Customer Feedback:</b><br>\n\nCustomers frequently praised the speed, efficiency, quality of work, and professionalism of the team. However, there were also some suggestions for improvement, such as streamlining the submission process, improving consistency in quality, and enhancing communication.<br>\n\n<b>Conclusion:</b><br>\n\nWhile the overall level of customer satisfaction is high, there are some areas for improvement. Focusing on these areas could lead to an overall increase in customer satisfaction.",
+    "graphs_data": [
+        {
+            "column_insight_ultra_summary": "<div><p>The survey data analysis indicates a high level of customer satisfaction across all project types and member firms, with particular praise for the team's professionalism and communication skills. However, the 'Proposal/Bid' project type and some variations in satisfaction scores across firms suggest areas for improvement and further investigation.</p></div>",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Count": 1611,
+                        "Response": 7
+                    },
+                    {
+                        "Count": 288,
+                        "Response": 6
+                    },
+                    {
+                        "Count": 50,
+                        "Response": 5
+                    },
+                    {
+                        "Count": 35,
+                        "Response": 2
+                    },
+                    {
+                        "Count": 21,
+                        "Response": 3
+                    },
+                    {
+                        "Count": 21,
+                        "Response": 1
+                    },
+                    {
+                        "Count": 15,
+                        "Response": 4
+                    }
+                ],
+                "layout": {
+                    "title": "I am satisfied with the services received"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "I am satisfied with the services received"
+        },
+        {
+            "column_insight_ultra_summary": "<div><p>The survey data analysis shows high customer satisfaction with the services provided, particularly in 'Advertisement/Twitter Card', 'Flyer/Sales Sheet/Fact Sheet', and 'Graph/Table/Organizational and Flow Chart' projects. However, 'Proposal/Bid' and 'Placemat' projects, as well as streamlining the submission process, improving quality consistency, and enhancing communication, require attention. Despite high satisfaction across all firms, variations in scores suggest opportunities for specific firms to improve.</p></div>",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Count": 1603,
+                        "Response": 7
+                    },
+                    {
+                        "Count": 297,
+                        "Response": 6
+                    },
+                    {
+                        "Count": 51,
+                        "Response": 5
+                    },
+                    {
+                        "Count": 31,
+                        "Response": 2
+                    },
+                    {
+                        "Count": 24,
+                        "Response": 1
+                    },
+                    {
+                        "Count": 22,
+                        "Response": 3
+                    },
+                    {
+                        "Count": 13,
+                        "Response": 4
+                    }
+                ],
+                "layout": {
+                    "title": "I was satisfied with the final design/output"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "I was satisfied with the final design/output"
+        },
+        {
+            "column_insight_ultra_summary": "<div><p>Survey analysis indicates overall satisfaction with project management, especially in 'Presentation' and 'Advertisement/Twitter Card' projects, and among respondents from the 'Global Tax & Legal' function and the China member firm. Areas for improvement include better understanding of project requirements and communication, particularly in 'Proposal/Bid' projects, among those with 'Enhanced Formatting/Design' requirements, and from the 'Consulting' function and NSE Switzerland member firm.</p></div>",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Count": 1579,
+                        "Response": 7
+                    },
+                    {
+                        "Count": 314,
+                        "Response": 6
+                    },
+                    {
+                        "Count": 57,
+                        "Response": 5
+                    },
+                    {
+                        "Count": 31,
+                        "Response": 2
+                    },
+                    {
+                        "Count": 21,
+                        "Response": 4
+                    },
+                    {
+                        "Count": 21,
+                        "Response": 3
+                    },
+                    {
+                        "Count": 18,
+                        "Response": 1
+                    }
+                ],
+                "layout": {
+                    "title": "My project needs were fully understood and well managed"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "My project needs were fully understood and well managed"
+        },
+        {
+            "column_insight_ultra_summary": "<div><p>The analysis reveals high overall satisfaction with communication clarity, highlighting variations across different project types and design categories. 'Advertisement/Twitter Card' and 'Flyer/Sales Sheet/Fact Sheet' projects received the highest satisfaction scores. In contrast, 'Proposal/Bid' and 'Presentation' projects, along with the 'Enhanced formatting/design' category, show room for improvement.</p></div>",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Count": 1595,
+                        "Response": 7
+                    },
+                    {
+                        "Count": 300,
+                        "Response": 6
+                    },
+                    {
+                        "Count": 53,
+                        "Response": 5
+                    },
+                    {
+                        "Count": 30,
+                        "Response": 2
+                    },
+                    {
+                        "Count": 24,
+                        "Response": 4
+                    },
+                    {
+                        "Count": 22,
+                        "Response": 3
+                    },
+                    {
+                        "Count": 17,
+                        "Response": 1
+                    }
+                ],
+                "layout": {
+                    "title": "Expectations and challenges were clearly communicated"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "Expectations and challenges were clearly communicated"
+        },
+        {
+            "column_insight_ultra_summary": "<div><p>The survey analysis revealed overall satisfaction with the accuracy of instructions and adaptability to changes. However, it also highlighted areas for improvement, particularly in communication and understanding of instructions. Notably, 'Proposal/Bid', 'Placemat', and 'Report/POV/White Paper' projects, along with those requiring 'Enhanced formatting/design', were identified as areas needing more attention due to prevalent dissatisfaction.</p></div>",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Count": 1603,
+                        "Response": 7
+                    },
+                    {
+                        "Count": 291,
+                        "Response": 6
+                    },
+                    {
+                        "Count": 52,
+                        "Response": 5
+                    },
+                    {
+                        "Count": 32,
+                        "Response": 2
+                    },
+                    {
+                        "Count": 25,
+                        "Response": 3
+                    },
+                    {
+                        "Count": 20,
+                        "Response": 1
+                    },
+                    {
+                        "Count": 18,
+                        "Response": 4
+                    }
+                ],
+                "layout": {
+                    "title": "Instructions/changes were addressed accurately"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "Instructions/changes were addressed accurately"
+        },
+        {
+            "column_insight_ultra_summary": "The analysis reveals that while most customers express overall satisfaction, project types 'Presentation' and 'Graphic/Imagery' are both popular and areas for improvement. 'Graph/Table/Organizational and Flow chart' projects are less popular, and 'Email/Newsletter' and 'Proposal/Bid' projects elicit strong sentiments. Geographically, the US and Canada have the highest engagement, with the US showing more positive sentiments. The SEA region and Australia have the lowest engagement, and the Deloitte Global region shows high engagement with mixed sentiments.",
+            "plot_chart": {
+                "color": "Color",
+                "color_discrete_map": "identity",
+                "data": [
+                    {
+                        "Color": "rgb(194,61,61)",
+                        "Count": 1847,
+                        "Response": "Negative"
+                    },
+                    {
+                        "Color": "rgb(87,210,159)",
+                        "Count": 194,
+                        "Response": "Positive"
+                    }
+                ],
+                "layout": {
+                    "title": "Sentiment Additional Comments"
+                },
+                "text": "Count",
+                "type": "bar",
+                "x": "Response",
+                "y": "Count"
+            },
+            "question": "sentiment_Additional_comments"
+        }
+    ]
+}
