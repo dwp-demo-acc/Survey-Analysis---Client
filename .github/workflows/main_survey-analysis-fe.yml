@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: "18.x"
+          node-version: '20.x'
 
       - name: npm install, build, and test
         run: |
@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: "Production"
+      name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
     permissions:
       id-token: write #This is required for requesting the JWT
@@ -53,18 +53,19 @@ jobs:
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
-
+      
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_902036D10A194636A06035C793F97753 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_9BBDCBF850804D57BF97E96652C739C6 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F9DE7E10771149DD9CF067AF03DCED5F }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_4720D69E8A0043A5981E948EE577B49F }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_B579418BB8DE4E89A9A97AE11D971ACA }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_643B325FAFE04EA5BFB7D54DF6C5A25C }}
 
-      - name: "Deploy to Azure Web App"
+      - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: "Survey-Analysis-FE"
-          slot-name: "Production"
+          app-name: 'Survey-Analysis-FE'
+          slot-name: 'Production'
           package: .
+          
