@@ -14,7 +14,8 @@ interface IExecutiveSummeryProps {
 const ExecutiveSummery = (props: IExecutiveSummeryProps) => {
   const [isNonPoc, setIsNonPoc] = React.useState(false);
 
-  if (isNonPoc) return <Custom404 code={0} onBack={() => setIsNonPoc(false)} />;
+  // if (isNonPoc) return <Custom404 code={"0"} onBack={() => setIsNonPoc(false)} />;
+  if (isNonPoc) return <Custom404 />;
   return (
     <React.Fragment>
       <CssBaseline />

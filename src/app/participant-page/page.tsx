@@ -4,7 +4,7 @@ import IconBreadcrumbs from "@/utils/breadcrumb";
 import ParticipantsDataWrapper from "@/components/participantsPage/participantsDataWrapper/participantsDataWrapper";
 import SegmentationParticipantWrapper from "@/components/participantsPage/segmentationWrapper/segmentationParticipantWrapper";
 import { postData } from "@/api/getDataInsight";
-import Loader from "@/components/shared/Loader/loader";
+import Loader from "@/components/shared/Loader/Loader";
 
 interface IParticipantData {
   num_duplicated_answer: number;

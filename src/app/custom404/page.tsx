@@ -1,6 +1,9 @@
+import { NextPage } from "next";
 import Link from "next/link";
 
-const errorDict = {
+type ErrorCode = "404" | "0";
+
+const errorDict: Record<ErrorCode, { title: string | number; message: string }> = {
   404: {
     title: 404,
     message: "This Page could Not Found.",
@@ -11,7 +14,12 @@ const errorDict = {
   },
 };
 
-const Custom404 = ({ code = 404, onBack }: { onBack?: () => void; code: 404 | 0 }) => {
+interface Custom404Props {
+  // code: ErrorCode;
+  // onBack?: () => void;
+}
+
+const Custom404: NextPage<Custom404Props> = () => {
   return (
     <div>
       <div
@@ -32,16 +40,19 @@ const Custom404 = ({ code = 404, onBack }: { onBack?: () => void; code: 404 | 0 
             gap: "1rem",
           }}
         >
-          <h2> {errorDict[code].title} </h2>
+          <h2> {errorDict["404"].title} </h2>
           <h2 style={{ fontWeight: "500" }}> | </h2>
-          <p>{errorDict[code].message}</p>
-          {onBack ? (
+          <p>{errorDict["404"].message}</p>
+          {/* {onBack ? (
             <button onClick={onBack}>Click here to go back</button>
           ) : (
             <Link href="/" style={{ display: "flex", flexDirection: "column" }}>
               <button>Go to Home Page</button>
             </Link>
-          )}
+          )} */}
+          <Link href="/" style={{ display: "flex", flexDirection: "column" }}>
+            <button>Go to Home Page</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -6,8 +6,7 @@ import { getDetailScreenData, postData } from "@/api/getDataInsight";
 import MainGraphWrapper from "@/components/displayScreen/mainGraphWrapper/mainGraphWrapper";
 import SegmentationWrapper from "@/components/displayScreen/segmentationWrapper/segmentationWrapper";
 import IconBreadcrumbs from "@/utils/breadcrumb";
-import Loader from "@/components/shared/Loader/loader";
-
+import Loader from "@/components/shared/Loader/Loader";
 
 const DetailScreen = ({ params }: { params: { columnName: string } }) => {
   const [mainGraph, setMainGraph] = useState<any>(null);
@@ -17,16 +16,12 @@ const DetailScreen = ({ params }: { params: { columnName: string } }) => {
   const decodedHomepageUrl = decodeURIComponent(homepageUrl!);
   const columnName = decodeURIComponent(params.columnName);
   const [mainGraphTitle, setMainGraphTitle] = useState<string>("");
-  const [descriptionMainGraph, setDescriptionMainGraph] =
-    useState<IDescriptionMainGraph>();
+  const [descriptionMainGraph, setDescriptionMainGraph] = useState<IDescriptionMainGraph>();
   const [segmentData, setSegmentData] = useState<ISegmentDataWrapper[]>([]);
   const initMainGraph = (dataMainGraph: any): void => {
     setMainGraph(dataMainGraph);
   };
-  const initMainGraphDescription = (
-    detailedDesc: string,
-    shortDesc: string
-  ): void => {
+  const initMainGraphDescription = (detailedDesc: string, shortDesc: string): void => {
     setDescriptionMainGraph({
       detailedDescription: detailedDesc,
       shortDescription: shortDesc,
@@ -58,12 +53,9 @@ const DetailScreen = ({ params }: { params: { columnName: string } }) => {
     const fetchDetailScreenDataByName = async (fileName: any) => {
       let title = "";
       title = fileName.replace(/%20/g, " ");
-      const response = await postData(
-        "http://127.0.0.1:5000/get_question_plot_details",
-        {
-          column_name: title,
-        }
-      );
+      const response = await postData("http://127.0.0.1:5000/get_question_plot_details", {
+        column_name: title,
+      });
 
       // const response = await getDetailScreenData(title);
       if (response === undefined || response.notFound) {
@@ -74,10 +66,8 @@ const DetailScreen = ({ params }: { params: { columnName: string } }) => {
       const dataMainGraph = response["graph_lvl_1"]["data"];
       const mainGraphTitle = response["graph_lvl_1"]["title"];
       setMainGraphTitle(mainGraphTitle);
-      const detailedDescription =
-        response["insights"]["column_insight_detailed_summary"];
-      const shortDescription =
-        response["insights"]["column_insight_short_summary"];
+      const detailedDescription = response["insights"]["column_insight_detailed_summary"];
+      const shortDescription = response["insights"]["column_insight_short_summary"];
       const segmentationData: any[] = response["cards"];
       initSegmentData(segmentationData);
 
@@ -91,20 +81,14 @@ const DetailScreen = ({ params }: { params: { columnName: string } }) => {
 
   return (
     <div>
-      <IconBreadcrumbs
-        homePage={decodedHomepageUrl}
-        currentPage="Detail Screen"
-      />
+      <IconBreadcrumbs homePage={decodedHomepageUrl} currentPage="Detail Screen" />
       {isLoading ? (
         <Loader />
       ) : (
         <div className={style.detailScreenWrapper}>
           {mainGraph && descriptionMainGraph && (
             <>
-              <MainGraphWrapper
-                graph={mainGraph}
-                descriptionMainGraph={descriptionMainGraph}
-              />
+              <MainGraphWrapper graph={mainGraph} descriptionMainGraph={descriptionMainGraph} />
               <SegmentationWrapper data={segmentData} title={mainGraphTitle} />
             </>
           )}
