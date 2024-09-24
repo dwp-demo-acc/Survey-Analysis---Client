@@ -35,7 +35,6 @@ export default function SurveyPage({ params }: { params: { surveyName: string } 
       };
       items.push(elem);
     }
-
     setGraphs(items);
   };
 
