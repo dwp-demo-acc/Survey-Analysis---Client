@@ -6,7 +6,7 @@ import { getDetailScreenData, postData } from "@/api/getDataInsight";
 import MainGraphWrapper from "@/components/displayScreen/mainGraphWrapper/mainGraphWrapper";
 import SegmentationWrapper from "@/components/displayScreen/segmentationWrapper/segmentationWrapper";
 import IconBreadcrumbs from "@/utils/breadcrumb";
-import Loader from "@/components/shared/Loader/Loader";
+import Loader from "@/components/Loader/Loader";
 
 const DetailScreen = ({ params }: { params: { columnName: string } }) => {
   const [mainGraph, setMainGraph] = useState<any>(null);

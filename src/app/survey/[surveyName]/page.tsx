@@ -5,7 +5,7 @@ import ExecutiveSummery from "@/components/homePage/executiveSummery/executiveSu
 import { useState, useEffect } from "react";
 import IconBreadcrumbs from "@/utils/breadcrumb";
 import GraphsDisplay from "@/components/homePage/graphsDisplay/graphsDisplay";
-import Loader from "@/components/shared/Loader/Loader";
+import Loader from "@/components/Loader/Loader";
 import style from "./surveyName.module.css";
 import { Alert, Snackbar } from "@mui/material";
 
