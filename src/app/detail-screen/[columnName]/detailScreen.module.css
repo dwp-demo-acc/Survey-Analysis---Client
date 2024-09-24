@@ -1,0 +1,5 @@
+.detailScreenWrapper{
+    display: flex;
+    flex-direction: row;
+}
+

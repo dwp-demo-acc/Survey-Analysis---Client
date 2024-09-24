@@ -1,0 +1,10 @@
+.linkItemWrapper{
+    border-bottom:none;
+    text-decoration:none !important;
+}
+
+.linkItemWrapper:hover{
+    background-color: darkgray;
+    color:black;
+    text-decoration:none !important;
+}

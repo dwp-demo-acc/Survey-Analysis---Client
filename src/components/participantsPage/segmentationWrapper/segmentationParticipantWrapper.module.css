@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 57%;
+  height: 600px;
+  border-radius: 1rem;
+  background: rgb(217, 217, 217);
+  overflow: auto;
+}
+
+.wrapperTitle {
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.graphWrapper {
+  padding: 2rem;
+  margin-left: 1rem;
+  background: white;
+  border-radius: 1rem;
+}

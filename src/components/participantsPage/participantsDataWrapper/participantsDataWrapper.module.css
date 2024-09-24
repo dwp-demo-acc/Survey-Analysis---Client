@@ -1,0 +1,64 @@
+.participantsBoxWrapper {
+  margin-bottom: 2rem;
+  width: 85%;
+  height: 15rem;
+  padding: 1rem;
+  font-weight: 600;
+  background-color: rgb(217, 217, 217);
+  border-radius: 1rem;
+}
+
+.participantsBox {
+  background-color: white;
+  height: 80%;
+  width: 50%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.participantsBox h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.resultsDeletedBoxWrapper {
+  margin-bottom: 2rem;
+  width: 85%;
+  height: fit-content;
+  padding: 1rem;
+  font-weight: 600;
+  background-color: rgb(217, 217, 217);
+  border-radius: 1rem;
+}
+.duplicateResponsesBox {
+  background-color: white;
+  height: 80%;
+  width: 50%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.duplicateResponsesBox h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .BoxWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }

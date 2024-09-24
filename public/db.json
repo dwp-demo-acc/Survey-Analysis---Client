@@ -1,0 +1,972 @@
+{
+  "I am satisfied with the services received": {
+    "graph_lvl_1": {
+      "title": "I am satisfied with the services received",
+      "data": {
+        "data": [
+          {
+            "x": 7,
+            "y": 1610,
+            "Color": "rgb(4,30,66)"
+          },
+          {
+            "x": 6,
+            "y": 288,
+            "Color": "rgb(2, 47, 151)"
+          },
+          {
+            "x": 5,
+            "y": 50,
+            "Color": "rgb(0,85,135)"
+          },
+          {
+            "x": 2,
+            "y": 35,
+            "Color": "rgb(98,181,229)"
+          },
+          {
+            "x": 3,
+            "y": 21,
+            "Color": "rgb(0,163,224)"
+          },
+          {
+            "x": 1,
+            "y": 21,
+            "Color": "rgb(160,220,255)"
+          },
+          {
+            "x": 4,
+            "y": 15,
+            "Color": "rgb(0,118,168)"
+          }
+        ],
+        "layout": {
+          "title": "I am satisfied with the services received"
+        }
+      }
+    },
+    "insights": {
+      "column_insight_short_summary": "<div><p>The survey data analysis indicates a high level of customer satisfaction across all project types and member firms, with particular praise for the team's professionalism and communication skills. However, the 'Proposal/Bid' project type and some variations in satisfaction scores across firms suggest areas for improvement and further investigation.</p></div>",
+      "column_insight_detailed_summary": "<div><strong>Executive Summary:</strong><p>The survey data analysis reveals a high level of customer satisfaction with the services received. The average satisfaction score was 6.6, with a significant majority of respondents rating their satisfaction as 7, the highest possible score.</p><p><strong>Textual analysis</strong> of customer feedback revealed key themes of high-quality service, responsiveness, professionalism, and good communication. Few negative comments were made, but some customers suggested improvements in consistent numbering and careful reading of initial instructions. Several team members were singled out for their excellent work, and the team's ability to handle last-minute requests was highlighted as an area of excellence.</p><p><strong>Segmentation insights</strong> reveal that all project types have a mean satisfaction score above 6, with 'Advertisement/Twitter Card', 'Video Editing', and 'Flyer/Sales Sheet/Fact Sheet' receiving the highest scores. However, the 'Proposal/Bid' project type received the lowest mean satisfaction score and had the most varied responses, indicating potential areas for improvement.</p><p>In terms of member firms, all had a mean satisfaction score above 6, with China, Australia, and Deloitte Global receiving the highest scores. However, there were some variations and anomalies in the distribution of responses across different satisfaction categories, suggesting potential areas for further investigation.</p><p>In conclusion, the data suggests a high level of satisfaction with the services received across all project types and member firms. However, there are areas for improvement and potential anomalies that warrant further investigation. The team's responsiveness, professionalism, communication skills, and creativity were frequently praised, and the few suggestions for improvement related to more minor aspects of the service delivery process.</p></div>"
+    },
+    "cards": [
+      {
+        "title": "Project type",
+        "graph_min_lvl_2": {
+          "type": "pie",
+          "data": [
+            {
+              "Satisfaction Level": "Very Low",
+              "Count": 4.0
+            },
+            {
+              "Satisfaction Level": "Low",
+              "Count": 9.0
+            },
+            {
+              "Satisfaction Level": "Moderately Low",
+              "Count": 1.0
+            },
+            {
+              "Satisfaction Level": "Moderate",
+              "Count": 4.0
+            },
+            {
+              "Satisfaction Level": "Moderately High",
+              "Count": 6.0
+            },
+            {
+              "Satisfaction Level": "High",
+              "Count": 29.0
+            },
+            {
+              "Satisfaction Level": "Very High",
+              "Count": 85.0
+            }
+          ],
+          "names": "Satisfaction Level",
+          "values": "Count",
+          "title": "Proposal/Bid",
+          "labels": {
+            "Satisfaction Level": "Satisfaction Level",
+            "Percentage": "Percentage"
+          },
+          "color_discrete_sequence": [
+            "rgb(160,220,255)",
+            "rgb(98,181,229)",
+            "rgb(0,163,224)",
+            "rgb(0,118,168)",
+            "rgb(0,85,135)",
+            "rgb(2, 47, 151)",
+            "rgb(4,30,66)"
+          ],
+          "category_orders": {
+            "Satisfaction Level": [
+              "Very Low",
+              "Low",
+              "Moderately Low",
+              "Moderate",
+              "Moderately High",
+              "High",
+              "Very High"
+            ]
+          },
+          "layout": {
+            "title": "I am satisfied with the services received"
+          }
+        },
+        "graph_max_lvl_2": {
+          "type": "pie",
+          "data": [
+            {
+              "Satisfaction Level": "High",
+              "Count": 8.0
+            },
+            {
+              "Satisfaction Level": "Very High",
+              "Count": 49.0
+            }
+          ],
+          "names": "Satisfaction Level",
+          "values": "Count",
+          "title": "Advertisement/Twitter Card",
+          "labels": {
+            "Satisfaction Level": "Satisfaction Level",
+            "Percentage": "Percentage"
+          },
+          "color_discrete_sequence": ["rgb(2, 47, 151)", "rgb(4,30,66)"],
+          "category_orders": {
+            "Satisfaction Level": [
+              "Very Low",
+              "Low",
+              "Moderately Low",
+              "Moderate",
+              "Moderately High",
+              "High",
+              "Very High"
+            ]
+          },
+          "layout": {
+            "title": "I am satisfied with the services received"
+          }
+        },
+        "sub_title": "Insights",
+        "insight": "</p><br><p>The analysis of the survey data reveals a generally high level of customer satisfaction across all project types, with the mean satisfaction score above 6. The 'Advertisement/Twitter Card' project type (Left Chart) received the highest mean satisfaction score (6.86), while the 'Proposal/Bid' project type (Right Chart) had the lowest (6.09).<br><br><b>Actionable Insights:</b> The 'Advertisement/Twitter Card', 'Account Branding', and 'Graph/Table/ Organizational and Flow chart' project types received no ratings below 5, suggesting consistent customer satisfaction. However, the 'Proposal/Bid' and 'Placemat' project types had a significant number of dissatisfied customers, indicating a need for improvement in these areas.</p>"
+      },
+      {
+        "title": "Member firm",
+        "graph_min_lvl_2": {
+          "type": "pie",
+          "data": [
+            {
+              "Satisfaction Level": "Very Low",
+              "Count": 3.0
+            },
+            {
+              "Satisfaction Level": "Low",
+              "Count": 4.0
+            },
+            {
+              "Satisfaction Level": "Moderately Low",
+              "Count": 1.0
+            },
+            {
+              "Satisfaction Level": "Moderate",
+              "Count": 2.0
+            },
+            {
+              "Satisfaction Level": "Moderately High",
+              "Count": 2.0
+            },
+            {
+              "Satisfaction Level": "High",
+              "Count": 9.0
+            },
+            {
+              "Satisfaction Level": "Very High",
+              "Count": 40.0
+            }
+          ],
+          "names": "Satisfaction Level",
+          "values": "Count",
+          "title": "NSE � Switzerland",
+          "labels": {
+            "Satisfaction Level": "Satisfaction Level",
+            "Percentage": "Percentage"
+          },
+          "color_discrete_sequence": [
+            "rgb(160,220,255)",
+            "rgb(98,181,229)",
+            "rgb(0,163,224)",
+            "rgb(0,118,168)",
+            "rgb(0,85,135)",
+            "rgb(2, 47, 151)",
+            "rgb(4,30,66)"
+          ],
+          "category_orders": {
+            "Satisfaction Level": [
+              "Very Low",
+              "Low",
+              "Moderately Low",
+              "Moderate",
+              "Moderately High",
+              "High",
+              "Very High"
+            ]
+          },
+          "layout": {
+            "title": "I am satisfied with the services received"
+          }
+        },
+        "graph_max_lvl_2": {
+          "type": "pie",
+          "data": [
+            {
+              "Satisfaction Level": "Low",
+              "Count": 1.0
+            },
+            {
+              "Satisfaction Level": "High",
+              "Count": 9.0
+            },
+            {
+              "Satisfaction Level": "Very High",
+              "Count": 79.0
+            }
+          ],
+          "names": "Satisfaction Level",
+          "values": "Count",
+          "title": "China",
+          "labels": {
+            "Satisfaction Level": "Satisfaction Level",
+            "Percentage": "Percentage"
+          },
+          "color_discrete_sequence": [
+            "rgb(98,181,229)",
+            "rgb(2, 47, 151)",
+            "rgb(4,30,66)"
+          ],
+          "category_orders": {
+            "Satisfaction Level": [
+              "Very Low",
+              "Low",
+              "Moderately Low",
+              "Moderate",
+              "Moderately High",
+              "High",
+              "Very High"
+            ]
+          },
+          "layout": {
+            "title": "I am satisfied with the services received"
+          }
+        },
+        "sub_title": "Insights",
+        "insight": "<p>The majority of respondents fall into the highest satisfaction category, indicating overall <strong>high satisfaction</strong> with the services received, with the mean satisfaction score above 6. The highest satisfaction is observed in <strong>China</strong>, <strong>Australia</strong>, and <strong>Deloitte Global</strong>, and the lowest satisfaction in <strong>NSE Switzerland</strong>. Further investigation is recommended to understand the reasons behind these variations and anomalies.</p>"
+      }
+    ]
+  },
+  "file-insights-response": {
+    "graphs-data": [
+      {
+        "question": "I am satisfied with the services received",
+        "column_insight_ultra_summary": "<div><p>The survey data analysis indicates a high level of customer satisfaction across all project types and member firms, with particular praise for the team's professionalism and communication skills. However, the 'Proposal/Bid' project type and some variations in satisfaction scores across firms suggest areas for improvement and further investigation.</p></div>",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": 7,
+              "y": 1610,
+              "Color": "rgb(4,30,66)"
+            },
+            {
+              "x": 6,
+              "y": 288,
+              "Color": "rgb(2, 47, 151)"
+            },
+            {
+              "x": 5,
+              "y": 50,
+              "Color": "rgb(0,85,135)"
+            },
+            {
+              "x": 2,
+              "y": 35,
+              "Color": "rgb(98,181,229)"
+            },
+            {
+              "x": 3,
+              "y": 21,
+              "Color": "rgb(0,163,224)"
+            },
+            {
+              "x": 1,
+              "y": 21,
+              "Color": "rgb(160,220,255)"
+            },
+            {
+              "x": 4,
+              "y": 15,
+              "Color": "rgb(0,118,168)"
+            }
+          ],
+          "x": "x",
+          "y": "Count",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "I am satisfied with the services received"
+          }
+        }
+      },
+      {
+        "question": "I was satisfied with the final design/output",
+        "column_insight_ultra_summary": "<div><p>The survey data analysis shows high customer satisfaction with the services provided, particularly in 'Advertisement/Twitter Card', 'Flyer/Sales Sheet/Fact Sheet', and 'Graph/Table/Organizational and Flow Chart' projects. However, 'Proposal/Bid' and 'Placemat' projects, as well as streamlining the submission process, improving quality consistency, and enhancing communication, require attention. Despite high satisfaction across all firms, variations in scores suggest opportunities for specific firms to improve.</p></div>",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": 7,
+              "y": 1602,
+              "Color": "rgb(4,30,66)"
+            },
+            {
+              "x": 6,
+              "y": 297,
+              "Color": "rgb(2, 47, 151)"
+            },
+            {
+              "x": 5,
+              "y": 51,
+              "Color": "rgb(0,85,135)"
+            },
+            {
+              "x": 2,
+              "y": 31,
+              "Color": "rgb(98,181,229)"
+            },
+            {
+              "x": 1,
+              "y": 24,
+              "Color": "rgb(160,220,255)"
+            },
+            {
+              "x": 3,
+              "y": 22,
+              "Color": "rgb(0,163,224)"
+            },
+            {
+              "x": 4,
+              "y": 13,
+              "Color": "rgb(0,118,168)"
+            }
+          ],
+          "x": "x",
+          "y": "y",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "I was satisfied with the final design/output"
+          }
+        }
+      },
+      {
+        "question": "My project needs were fully understood and well managed",
+        "column_insight_ultra_summary": "<div><p>Survey analysis indicates overall satisfaction with project management, especially in 'Presentation' and 'Advertisement/Twitter Card' projects, and among respondents from the 'Global Tax & Legal' function and the China member firm. Areas for improvement include better understanding of project requirements and communication, particularly in 'Proposal/Bid' projects, among those with 'Enhanced Formatting/Design' requirements, and from the 'Consulting' function and NSE Switzerland member firm.</p></div>",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": 7,
+              "y": 1578,
+              "Color": "rgb(4,30,66)"
+            },
+            {
+              "x": 6,
+              "y": 314,
+              "Color": "rgb(2, 47, 151)"
+            },
+            {
+              "x": 5,
+              "y": 57,
+              "Color": "rgb(0,85,135)"
+            },
+            {
+              "x": 2,
+              "y": 31,
+              "Color": "rgb(98,181,229)"
+            },
+            {
+              "x": 4,
+              "y": 21,
+              "Color": "rgb(0,118,168)"
+            },
+            {
+              "x": 3,
+              "y": 21,
+              "Color": "rgb(0,163,224)"
+            },
+            {
+              "x": 1,
+              "y": 18,
+              "Color": "rgb(160,220,255)"
+            }
+          ],
+          "x": "x",
+          "y": "y",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "My project needs were fully understood and well managed"
+          }
+        }
+      },
+      {
+        "question": "Expectations and challenges were clearly communicated",
+        "column_insight_ultra_summary": "<div><p>The analysis reveals high overall satisfaction with communication clarity, highlighting variations across different project types and design categories. 'Advertisement/Twitter Card' and 'Flyer/Sales Sheet/Fact Sheet' projects received the highest satisfaction scores. In contrast, 'Proposal/Bid' and 'Presentation' projects, along with the 'Enhanced formatting/design' category, show room for improvement.</p></div>",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": 7,
+              "y": 1594,
+              "Color": "rgb(4,30,66)"
+            },
+            {
+              "x": 6,
+              "y": 300,
+              "Color": "rgb(2, 47, 151)"
+            },
+            {
+              "x": 5,
+              "y": 53,
+              "Color": "rgb(0,85,135)"
+            },
+            {
+              "x": 2,
+              "y": 30,
+              "Color": "rgb(98,181,229)"
+            },
+            {
+              "x": 4,
+              "y": 24,
+              "Color": "rgb(0,118,168)"
+            },
+            {
+              "x": 3,
+              "y": 22,
+              "Color": "rgb(0,163,224)"
+            },
+            {
+              "x": 1,
+              "y": 17,
+              "Color": "rgb(160,220,255)"
+            }
+          ],
+          "x": "x",
+          "y": "y",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "Expectations and challenges were clearly communicated"
+          }
+        }
+      },
+      {
+        "question": "Instructions/changes were addressed accurately",
+        "column_insight_ultra_summary": "<div><p>The survey analysis revealed overall satisfaction with the accuracy of instructions and adaptability to changes. However, it also highlighted areas for improvement, particularly in communication and understanding of instructions. Notably, 'Proposal/Bid', 'Placemat', and 'Report/POV/White Paper' projects, along with those requiring 'Enhanced formatting/design', were identified as areas needing more attention due to prevalent dissatisfaction.</p></div>",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": 7,
+              "y": 1602,
+              "Color": "rgb(4,30,66)"
+            },
+            {
+              "x": 6,
+              "y": 291,
+              "Color": "rgb(2, 47, 151)"
+            },
+            {
+              "x": 5,
+              "y": 52,
+              "Color": "rgb(0,85,135)"
+            },
+            {
+              "x": 2,
+              "y": 32,
+              "Color": "rgb(98,181,229)"
+            },
+            {
+              "x": 3,
+              "y": 25,
+              "Color": "rgb(0,163,224)"
+            },
+            {
+              "x": 1,
+              "y": 20,
+              "Color": "rgb(160,220,255)"
+            },
+            {
+              "x": 4,
+              "y": 18,
+              "Color": "rgb(0,118,168)"
+            }
+          ],
+          "x": "x",
+          "y": "y",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "Instructions/changes were addressed accurately"
+          }
+        }
+      },
+      {
+        "question": "sentiment_Additional_comments",
+        "column_insight_ultra_summary": "The analysis reveals that while most customers express overall satisfaction, project types 'Presentation' and 'Graphic/Imagery' are both popular and areas for improvement. 'Graph/Table/Organizational and Flow chart' projects are less popular, and 'Email/Newsletter' and 'Proposal/Bid' projects elicit strong sentiments. Geographically, the US and Canada have the highest engagement, with the US showing more positive sentiments. The SEA region and Australia have the lowest engagement, and the Deloitte Global region shows high engagement with mixed sentiments.",
+        "plot_chart": {
+          "type": "bar",
+          "data": [
+            {
+              "x": "Positive",
+              "y": 1846,
+              "Color": "rgb(87,210,159)"
+            },
+            {
+              "x": "Negative",
+              "y": 194,
+              "Color": "rgb(194,61,61)"
+            }
+          ],
+          "x": "x",
+          "y": "y",
+          "text": "Count",
+          "color": "Color",
+          "color_discrete_map": "identity",
+          "layout": {
+            "title": "Sentiment Additional Comments"
+          }
+        }
+      }
+    ],
+    "executive_page_summary": "The survey data analysis reveals a generally high level of customer satisfaction across all areas of service. The average satisfaction scores for all questions were above 6.5 on a scale of 1 to 7, indicating a positive sentiment among respondents. The majority of respondents gave the highest possible satisfaction score for all questions, further emphasizing the high level of customer satisfaction.<br>\n\n<b>Anomalies and Findings:</b><br>\n\n1. <b>Project Type Satisfaction:</b> The 'Proposal/Bid' project type consistently received lower satisfaction scores compared to other project types. This suggests that there may be some issues with this project type that need to be addressed to improve customer satisfaction.<br>\n\n2. <b>Quality Inconsistency:</b> The 'Presentation' project type received the highest number of responses and had a wide range of satisfaction scores. This indicates that while many customers were highly satisfied with this project type, there were also some who were less satisfied. This suggests that there may be some inconsistency in the quality of service for this project type.<br>\n\n3. <b>Member Firm Satisfaction:</b> The data also revealed some variations in customer satisfaction across different member firms. For example, China had the highest mean satisfaction score, while NSE Switzerland had the lowest. This suggests that there may be differences in the level of service provided by different member firms.<br>\n\n<b>Customer Feedback:</b><br>\n\nCustomers frequently praised the speed, efficiency, quality of work, and professionalism of the team. However, there were also some suggestions for improvement, such as streamlining the submission process, improving consistency in quality, and enhancing communication.<br>\n\n<b>Conclusion:</b><br>\n\nWhile the overall level of customer satisfaction is high, there are some areas for improvement. Focusing on these areas could lead to an overall increase in customer satisfaction."
+  },
+  "participant-page": {
+    "graphs": [
+      {
+          "columnName": "Project type",
+          "graphData": {
+              "data": [
+                  {
+                      "Count": 689,
+                      "Response": "Presentation"
+                  },
+                  {
+                      "Count": 207,
+                      "Response": "Graphic/Imagery"
+                  },
+                  {
+                      "Count": 138,
+                      "Response": "Proposal/Bid"
+                  },
+                  {
+                      "Count": 129,
+                      "Response": "Report/POV/White Paper"
+                  },
+                  {
+                      "Count": 121,
+                      "Response": "Email/Newsletter"
+                  },
+                  {
+                      "Count": 115,
+                      "Response": "Video Editing"
+                  },
+                  {
+                      "Count": 93,
+                      "Response": "Brochure/Booklet"
+                  },
+                  {
+                      "Count": 70,
+                      "Response": "Placemat"
+                  },
+                  {
+                      "Count": 65,
+                      "Response": "Interactive PDF"
+                  },
+                  {
+                      "Count": 62,
+                      "Response": "Flyer/Sales Sheet/Fact Sheet"
+                  },
+                  {
+                      "Count": 57,
+                      "Response": "Advertisement/Twitter Card"
+                  },
+                  {
+                      "Count": 43,
+                      "Response": "Account Branding"
+                  },
+                  {
+                      "Count": 42,
+                      "Response": "Infographic"
+                  },
+                  {
+                      "Count": 30,
+                      "Response": "Animation/Motion Graphics"
+                  },
+                  {
+                      "Count": 22,
+                      "Response": "Graph/Table/ Organizational and Flow chart"
+                  },
+                  {
+                      "Count": 19,
+                      "Response": "Invitation/Postcard"
+                  },
+                  {
+                      "Count": 18,
+                      "Response": "Account Service Plan formatting"
+                  },
+                  {
+                      "Count": 17,
+                      "Response": "Signage/Poster/Banner"
+                  },
+                  {
+                      "Count": 17,
+                      "Response": "Videography"
+                  },
+                  {
+                      "Count": 17,
+                      "Response": "Photography"
+                  },
+                  {
+                      "Count": 15,
+                      "Response": "Video Storyboarding and Scripting"
+                  },
+                  {
+                      "Count": 13,
+                      "Response": "Illustration"
+                  },
+                  {
+                      "Count": 11,
+                      "Response": "E-signature preparation"
+                  },
+                  {
+                      "Count": 10,
+                      "Response": "Form Creation"
+                  },
+                  {
+                      "Count": 6,
+                      "Response": "SharePoint/Microsites Design and Form Creation"
+                  },
+                  {
+                      "Count": 5,
+                      "Response": "Live Sketch"
+                  },
+                  {
+                      "Count": 3,
+                      "Response": "Wall Design/ Environmental Branding"
+                  },
+                  {
+                      "Count": 3,
+                      "Response": "Magazine"
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "Voice Over"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Certificate"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Deloitte.com page design"
+                  }
+              ],
+              "layout": {
+                  "title": "Project type"
+              },
+              "text": "Count",
+              "type": "bar",
+              "x": "Response",
+              "y": "Count"
+          }
+      },
+      {
+          "columnName": "Design required",
+          "graphData": {
+              "data": [
+                  {
+                      "Count": 952,
+                      "Response": "Enhanced formatting/design"
+                  },
+                  {
+                      "Count": 924,
+                      "Response": "Basic formatting"
+                  },
+                  {
+                      "Count": 165,
+                      "Response": "Complex design"
+                  }
+              ],
+              "layout": {
+                  "title": "Design required"
+              },
+              "text": "Count",
+              "type": "bar",
+              "x": "Response",
+              "y": "Count"
+          }
+      },
+      {
+          "columnName": "Function",
+          "graphData": {
+              "data": [
+                  {
+                      "Count": 403,
+                      "Response": "Additional functions/business units"
+                  },
+                  {
+                      "Count": 333,
+                      "Response": "Audit & Assurance"
+                  },
+                  {
+                      "Count": 306,
+                      "Response": "Tax & Legal"
+                  },
+                  {
+                      "Count": 290,
+                      "Response": "Consulting"
+                  },
+                  {
+                      "Count": 180,
+                      "Response": "Risk Advisory"
+                  },
+                  {
+                      "Count": 133,
+                      "Response": "Financial Advisory"
+                  },
+                  {
+                      "Count": 116,
+                      "Response": "Enabling Areas"
+                  },
+                  {
+                      "Count": 86,
+                      "Response": "Global Tax & Legal"
+                  },
+                  {
+                      "Count": 61,
+                      "Response": "Global Clients & Industries"
+                  },
+                  {
+                      "Count": 33,
+                      "Response": "Global Knowledge Services"
+                  },
+                  {
+                      "Count": 21,
+                      "Response": "Global Technology Services (GTS)"
+                  },
+                  {
+                      "Count": 19,
+                      "Response": "Global Brand"
+                  },
+                  {
+                      "Count": 14,
+                      "Response": "Global Consulting"
+                  },
+                  {
+                      "Count": 9,
+                      "Response": "Global People Services"
+                  },
+                  {
+                      "Count": 9,
+                      "Response": "CoRe Service Area"
+                  },
+                  {
+                      "Count": 8,
+                      "Response": "Global Communications"
+                  },
+                  {
+                      "Count": 8,
+                      "Response": "Global Audit & Assurance"
+                  },
+                  {
+                      "Count": 5,
+                      "Response": "Audit Global Capture and Defend Center (GCDC)"
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "Global Learning"
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "Global Financial Advisory "
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Global Risk Advisory"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Global Capture & Defend Center (GCDC)"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Global Enabling Areas"
+                  }
+              ],
+              "layout": {
+                  "title": "Function"
+              },
+              "text": "Count",
+              "type": "bar",
+              "x": "Response",
+              "y": "Count"
+          }
+      },
+      {
+          "columnName": "Member firm",
+          "graphData": {
+              "data": [
+                  {
+                      "Count": 811,
+                      "Response": "United States"
+                  },
+                  {
+                      "Count": 429,
+                      "Response": "Canada"
+                  },
+                  {
+                      "Count": 224,
+                      "Response": "Deloitte Global"
+                  },
+                  {
+                      "Count": 197,
+                      "Response": "NSE – United Kingdom"
+                  },
+                  {
+                      "Count": 89,
+                      "Response": "China"
+                  },
+                  {
+                      "Count": 75,
+                      "Response": "Australia"
+                  },
+                  {
+                      "Count": 61,
+                      "Response": "NSE – Switzerland"
+                  },
+                  {
+                      "Count": 40,
+                      "Response": "NSE – Netherlands"
+                  },
+                  {
+                      "Count": 33,
+                      "Response": "SEA "
+                  },
+                  {
+                      "Count": 15,
+                      "Response": "NSE – Belgium"
+                  },
+                  {
+                      "Count": 10,
+                      "Response": "NSE – Ireland "
+                  },
+                  {
+                      "Count": 8,
+                      "Response": "Taiwan"
+                  },
+                  {
+                      "Count": 7,
+                      "Response": "Japan"
+                  },
+                  {
+                      "Count": 7,
+                      "Response": "Germany"
+                  },
+                  {
+                      "Count": 6,
+                      "Response": "Cayman Islands"
+                  },
+                  {
+                      "Count": 6,
+                      "Response": "NSE – Denmark "
+                  },
+                  {
+                      "Count": 5,
+                      "Response": "France"
+                  },
+                  {
+                      "Count": 3,
+                      "Response": "Sweden"
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "Italy"
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "NSE – Finland "
+                  },
+                  {
+                      "Count": 2,
+                      "Response": "NSE – Norway"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "CBC"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "NSE – Channel Islands "
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Portugal"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "SEA"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Greece"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "NSE – Iceland"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "China, Macao SAR"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Vietnam"
+                  },
+                  {
+                      "Count": 1,
+                      "Response": "Thailand"
+                  }
+              ],
+              "layout": {
+                  "title": "Member firm"
+              },
+              "text": "Count",
+              "type": "bar",
+              "x": "Response",
+              "y": "Count"
+          }
+      }
+  ],
+    "num_duplicated_answer": 63,
+    "num_of_survey_participants": 1978,
+    "uncompleted_answers": 13
+  }
+}

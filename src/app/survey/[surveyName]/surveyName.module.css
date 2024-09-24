@@ -1,0 +1,11 @@
+.centerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errorMsg {
+  font-weight: 600;
+  color: brown;
+}
