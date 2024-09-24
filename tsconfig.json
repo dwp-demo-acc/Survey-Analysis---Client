@@ -12,7 +12,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "typeRoots":["@typings",
+    "typeRoots":[
     "node_modules",
     "node_modules/@types"],
     "plugins": [
